@@ -1,0 +1,18 @@
+   0 /home
+   1 cd /home
+   2 touch chmodFile
+   3 date
+   4 date >> chmodFile
+   5 cat chmodFile
+   6 vi chmodFile 
+   7 chmod u+wr chmodFile
+   8 chmod g+rw chmodFile 
+   9 chmod a+r ch
+  10 chmod a+r chmodFile 
+  11 ls -la
+  12 chmod u-r chmodFile 
+  13 chmod u+x chmodFile 
+  14 ls -ls 
+  15 tree /home
+  16 history
+  17 history > history.txt
