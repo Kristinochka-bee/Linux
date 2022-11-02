@@ -1,0 +1,48 @@
+ cd /home/ec2-user/37_38mb
+ 1000  ls
+ 1001  ls -l
+ 1002  cd Muntian
+ 1003  nanu Kristina.txt
+ 1004  mkdir Muntian
+ 1005  ls
+ 1006  cd Muntian
+ 1007  nano taskKristina.sh
+ 1008  ./taskKristina.sh
+ 1009  chmod 744 taskKristina.sh
+ 1010  ls -la
+ 1011  ./taskKristina.sh
+ 1012  nano taskKristina.sh
+ 1013  ./taskKristina.sh
+ 1014  nano taskKristina.sh
+ 1015  cat taskKristina.sh
+ 1016  nano taskKristina.sh
+ 1017  ./taskKristina.sh
+ 1018  nano taskKristina.sh
+ 1019  ./taskKristina.sh
+ 1020  nano taskKristina.sh
+ 1021  ./taskKristina.sh
+ 1022  nano taskKristina.sh
+ 1023  ./taskKristina.sh
+ 1024  ls taskKristina.sh
+ 1025  cat taskKristina.sh
+ 1026  nano taskKristina.sh
+ 1027  ./taskKristina.sh
+ 1028  crontab -e
+ 1029  ls -la
+ 1030  crontab -l
+ 1031  history >> history.txt
+ 1032  history
+
+
+
+
+
+
+
+#!/bin/bash
+for run in {1..10}
+do
+varDate=$(date '+%H%M%S')
+echo "${run}_${varDate}"
+touch "${run}_${varDate}"
+done
